@@ -1,3 +1,4 @@
+package Strings;
 public class string3 {
     public static void main(String[] args) {
         String literalString1 = "abc";

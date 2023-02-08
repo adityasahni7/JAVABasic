@@ -1,3 +1,4 @@
+package DataTypes;
 public class DataTypes {
     public static void main(String[] args) {
         // integer types

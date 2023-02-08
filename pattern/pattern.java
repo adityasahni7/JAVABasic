@@ -1,3 +1,4 @@
+package pattern;
 import java.io.*;
 public class pattern
 {

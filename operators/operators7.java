@@ -1,3 +1,4 @@
+package operators;
 public class operators7 {
     public static void main(String[] args) {
         int score = 0;
