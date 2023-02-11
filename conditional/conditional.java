@@ -16,6 +16,5 @@ public class conditional {
         if (operation.equals("sum")){
             System.out.printf("%d + %d = %d", number1, number2, number1 + number2);
         }
-        scanner.close();
     }
 }
