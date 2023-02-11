@@ -14,8 +14,8 @@ public class conditional {
         System.out.println(number1);
         System.out.println(number2);
         if (operation.equals("sum")){
-            System.out.printf("%d + %d = %d", number1, number2, number1 + number2);
+            System.out.printf("%f + %f = %f", number1, number2, number1 + number2);
         }
-        scanner.close();//aaa
+        scanner.close();
     }
 }
