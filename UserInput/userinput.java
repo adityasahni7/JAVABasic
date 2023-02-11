@@ -8,8 +8,10 @@ public class userinput {
         System.out.println("What is your name? ");
         String name = scanner.nextLine();
 
-        System.out.println(name);
+        System.out.printf("Hello %s. How old are you?",name);
+        int age = scanner.nextInt();
 
+        System.out.printf("You are %d years old.",age);
         scanner.close();
      }
 }
