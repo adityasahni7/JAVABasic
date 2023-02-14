@@ -1,6 +1,7 @@
-package conditional;
+package switchcases;
 import java.util.Scanner;
-public class conditional {
+
+public class switchcases {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first number: ");
@@ -11,23 +12,20 @@ public class conditional {
         scanner.nextLine();
         System.out.println("What operation do you want to perform?");
         String operation = scanner.nextLine();
-        System.out.println(number1);
-        System.out.println(number2);
-        if (operation.equals("sum")){
+        switch (operation){
+            case "sum":
             System.out.printf("%f + %f = %f", number1, number2, number1 + number2);
-        }
-        else if (operation.equals("sub")){
+            break;
+            case "sub":
             System.out.printf("%f - %f = %f", number1, number2, number1 - number2);
-        }
-        else if (operation.equals("mul")){
+            break;
+            case "mul":
             System.out.printf("%f * %f = %f", number1, number2, number1 * number2);
-        }
-        else if (operation.equals("div")){
+            break;
+            case "div":
             System.out.printf("%f / %f = %f", number1, number2, number1 / number2);
-        }
-        else {
-            System.out.printf("Invalid operation", operation);
+            break;
+            default: System.out.printf("Invalid operation", operation);
         }
         scanner.close();
-    }
-}
+}}
