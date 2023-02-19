@@ -1,5 +1,4 @@
 package arrays;
-import java.util.*;
 public class arrays {
     public static void main(String[] args) {
         char vowels[] = new char[5];
