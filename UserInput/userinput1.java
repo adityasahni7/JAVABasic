@@ -12,7 +12,7 @@ public class userinput1 {
            System.out.printf("Hello %s. How old are you?",name);
            int age = Integer.parseInt(scanner.nextLine());
 
-           double gpa = Double.parseDouble(scanner.nextLine());
+          // double gpa = Double.parseDouble(scanner.nextLine());
 
            scanner.nextLine(); // cleans up the input buffer
    

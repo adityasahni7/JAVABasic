@@ -1,5 +1,4 @@
 package pattern;
-import java.io.*;
 public class pattern
 {
 	public static void printStars(int n)
