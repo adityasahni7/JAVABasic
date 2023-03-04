@@ -1,8 +1,8 @@
 package ArrayList;
 import java.util.*;
-public class ArrayList {
+public class ArrayList1{
     public static void main(String[] args) {
-        ArrayList numbers = new ArrayList();
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
         numbers.add(1);
         numbers.add(2);
         numbers.add(3);
