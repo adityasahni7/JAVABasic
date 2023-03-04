@@ -1,11 +1,10 @@
 package ForLoops;
-
+//import java.util.*;
 public class ForLoops2 {
     public static void main(String[] args) {
-        int i[] = {1,2,3,4,5,6,7,8,9,10};
-        for (int i=1; index<=i.length; i++){
-            System.out.println(i);
+        int numbers[] = {1,2,3,4,5,6,7,8,9,10};
+        for (int index=0; index<= numbers.length; index++){
+            System.out.println(numbers[index]);
         }
     }
 }
- 
