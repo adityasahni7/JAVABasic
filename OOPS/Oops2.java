@@ -5,6 +5,6 @@ public class Oops2 {
         Oops1 youngerUser = new Oops1();
         youngerUser.name = "Aditya Sahni";
         youngerUser.birthday = LocalDate.of(2002, 10, 30);
-        System.out.printf("User %s was born on %s", youngerUser.name, youngerUser.birthday.toString());
+        System.out.printf("User %s was born on %s and he is now %d years old", youngerUser.name, youngerUser.birthday.toString(), youngerUser.age());
     }
 }
