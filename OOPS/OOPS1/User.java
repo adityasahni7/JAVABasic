@@ -10,6 +10,12 @@ public class User {
         this.name = name;
         this.birthDay = LocalDate.parse(birthDay);
     }
+    public String getName(){
+        return this.name;
+    }
+    public String getBirthDay(){
+        return this.birthDay.toString();
+    }
     public void borrow(Book book){
         this.books.add(book);
     }

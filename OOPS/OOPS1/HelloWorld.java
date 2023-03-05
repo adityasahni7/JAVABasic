@@ -6,7 +6,7 @@ public class HelloWorld {
         book.title = "The Lord of the Rings";
         book.author = "J.R.R. Tolkien";
         User.borrow(book);
-        System.out.printf(User.name + " is " + User.age() + " years old. \n");
+        System.out.printf("%s is %d years old \n", User.getName(), User.age());
         System.out.printf("%s has borrowed these books: %s \n", User.name, User.books.toString());
     }
 }
