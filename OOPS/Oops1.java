@@ -6,6 +6,6 @@ public class Oops1 {
     public LocalDate birthday;
     public int age(){
         int age = Period.between(this.birthday, LocalDate.now());
-        return age();
+        return age.getYears();
     }
 }
